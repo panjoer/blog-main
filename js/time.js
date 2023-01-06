@@ -36,8 +36,8 @@ function init_life_time() {
         $('#monthProgress .progress .progress-bar').css('width', parseInt(monthPassPercent) + '%');
         $('#monthProgress .progress .progress-bar').html(parseInt(monthPassPercent) + '%');
         /* 年 */
-        let yearPass = (month / 12) * 100;
-        $('#yearProgress .date-text span').html(month);
+        let yearPass = ((month - 1) / 12) * 100;
+        $('#yearProgress .date-text span').html(month - 1);
         $('#yearProgress .progress .progress-bar').css('width', parseInt(yearPass) + '%');
         $('#yearProgress .progress .progress-bar').html(parseInt(yearPass) + '%');
     }
