@@ -20,7 +20,7 @@ const ap = new APlayer({
             artist: "游智婷 Sandy Yu",
             url: "./music/能不能.mp3",
             cover: "http://p1.music.126.net/4fK_UU_c6IHbq7wrAW4Qow==/18715886929967779.jpg",
-            lrc: "[00:00.00] 暂无歌词",
+            lrc: "https://www.panjoel.top/lyrics/false.lrc",
             theme: "#33658d"
         },
         {
@@ -28,7 +28,7 @@ const ap = new APlayer({
             artist: "蔡暐伦",
             url: "./music/所以我不问为什么.mp3",
             cover: "http://p1.music.126.net/4fK_UU_c6IHbq7wrAW4Qow==/18715886929967779.jpg",
-            lrc: "[00:00.00] 暂无歌词",
+            lrc: "https://www.panjoel.top/lyrics/false.lrc",
             theme: "#33658d"
         },
         {
