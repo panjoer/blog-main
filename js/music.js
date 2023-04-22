@@ -12,7 +12,7 @@ const ap = new APlayer({
             artist: "Michael Jackson",
             url: "http://music.163.com/song/media/outer/url?id=1697590.mp3",
             cover: "http://p1.music.126.net/4fK_UU_c6IHbq7wrAW4Qow==/18715886929967779.jpg",
-            lrc: "[00:00.00] 暂无歌词",
+            lrc: "https://www.panjoel.top/lyrics/felse.lrc",
             theme: "#33658d"
         },
         {
