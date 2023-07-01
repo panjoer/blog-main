@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐播放器</title>
+    <style>
+        /* 播放器样式 */
+        .player {
+            width: 300px;
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .player-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .playlist {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .playlist-item {
+            margin-bottom: 5px;
+            padding: 3px;
+            cursor: pointer;
+            background-color: #e1e1e1;
+            border-radius: 3px;
+        }
+        
+        .playlist-item:hover,
+        .playlist-item.active {
+            background-color: #ccc;
+        }
+        
+        .audio-player {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="player">
+        <h1 class="player-title">PFSMusic - 用Jesus音乐感染人心</h1>
+        <ul class="playlist">
+            <li class="playlist-item" onclick="playMusic('愛的力量-盛曉玫.mp3')">愛的力量-盛曉玫</li>
+            <li class="playlist-item" onclick="playMusic('【在祢沒有難成的事-Nothing-Is-Impossible】官方歌詞版MV-_Official-Lyrics-MV_.mp3')">在祢沒有難成的事-游智婷</li>
+            <li class="playlist-item" onclick="playMusic('平安永不離開-盛曉玫.mp3')">平安永不離開-盛曉玫</li>
+        </ul>
+        <audio class="audio-player" controls></audio>
+    </div>
+
+    <script>
+        function playMusic(url) {
+            var audioPlayer = document.querySelector('.audio-player');
+            audioPlayer.src = url;
+            audioPlayer.play();
+        }
+    </script>
+</body>
+
+</html>
